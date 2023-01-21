@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image{
+    padding: 40px;
+}
+.top-bar{
+    width: 100%;
+    height: 20px;
+    background-color:#F5F5F5;
+    position: fixed;
+    z-index: 1;
+}
+.top-bar a{
+    color: black;
+    font-size: 12px;
+    float: left;
+    text-decoration: none;
+    padding: 0 10px;
+    float:right;
+
+}
+.top-bar a:hover{
+
+    font-weight: bold;
+}
+.navbar{ 
+    width: 100%;
+    height: 69px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    justify-content: flex-start;
+    margin-top: 20px;
+    padding-left:120px;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+.left ul{
+    margin: 0;
+    padding:0;
+    display: flex;
+}
+.left li{
+    list-style: none;
+}
+.left li a{
+    text-decoration: none;
+    color: black;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    display: block;
+    font-size: 12.5px;
+}
+.left li a:hover{
+    color: red;
+} 
+.navbar .right{
+    display: flex;
+    font-size: 24px;
+    padding-left: 280px;
+    justify-content:flex-end;
+}
+.navbar .right a{
+    padding: 20px;
+    color: black;
+}
+.mid{
+    width: 100%;
+    height: 340px;
+    background-color: #E40000;
+    font-size: 50px;
+    text-align:left;
+    padding-top: 93px;
+}
+.mid mark{
+    background-color: #E40000;
+    color: #FDC400;
+}
+.mid p{
+    padding-top: 120px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding-left: 50px;
+}
+.mid-image{
+    float: right;
+    padding-right: 30px;
+}
+.head{
+    font-size: 40px;
+    padding-top: 60px;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head mark{
+    color: #E40000;
+    background-color: white;
+}
+.para{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 15px;
+    word-spacing: 5px;
+    font-size: 17px;
+}
+.mid2{
+    width: 97.5%;
+    margin-top: 45px;
+    background-color:#F6F6F6;
+
+}
+.mid2{
+    font-size: 40px;
+    padding-top: 60px;
+    padding-left: 30px;
+} 
+.head2{
+    padding-left:30px;
+}
+.head2 mark{
+    color: #E40000;
+    background-color: #f6f6f6;
+}
+.high{
+    color: #E40000;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.mid2 ul{
+    font-size: 20px;
+    padding: 30px;
+}
+.ulist {
+    list-style: none;
+    column-count: 3;
+}
+  
+.ulist li:before {
+    content: '✓';
+    color: #E40000;
+}
+
+.mid3{
+    width: 50%;
+    height: 270px;
+    display: grid;
+    background-color: #E40000;
+}
+.reg{
+    padding-left: 62px;
+    padding-top: 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+.mid3 .left .link{
+    display: block;
+    padding-left: 62px;
+    padding-top: 62px;
+    color: #F6F6F6;
+    text-decoration: none;
+}
+.mid3 .right{
+    width: 42%;
+    height: 150px;
+    position: absolute;
+    margin-left: 50%;
+    padding: 60px 0px 60px 50px;
+    background-color: white;
+}
+.mid3 p{
+    font-size: 35px;
+}
+.mid3 mark{
+    background-color: white;
+    color: #E40000;
+    display: block;
+}
+.mid3 .right a{
+    color: #E40000;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 70px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+.footer{
+    
+    height: 500px;
+    background-color: white;
+    color: #9F9F9F;
+    padding: 50px;
+}
+.footer-down{
+    height: 110px;
+    background-color: white;
+    padding-bottom: 30px;
+}
+.f{
+    padding-top: 24px;
+    padding-left: 37px;
+}
+.f a{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    padding-left:15px;
+}
+.f h1{
+    font-size: 30px;
+    padding-left: 0px;
+    width: 10%;
+    font-weight: normal;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.f p{
+    padding-left: 15px;
+    padding-top: 12px;
+    font-size: 15px;
+}
+.f a:hover{
+    color: #E40000;
+}
+.fimg{
+    float: right;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+.act{
+    font-size: 15px;
+}
+
+@media(max-width:765px){
+
+    .mid-image{
+        height: 0;
+    }
+}
